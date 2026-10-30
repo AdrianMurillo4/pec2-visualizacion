@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="PEC 2 · Visualización de datos: Gantt Chart">
+<title>Gantt Chart · PEC 2</title><link rel="stylesheet" href="styles.css">
+<script defer src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script><script defer src="viz.js"></script>
+</head><body data-chart="gantt"><div class="wrap"><header><div class="eyebrow">02 · Intervalos temporales</div><h1>Gantt Chart</h1><p class="lead">¿Qué tareas se suceden y cuáles se solapan en un proyecto didáctico de desarrollo de software?</p><nav class="nav" aria-label="Visualizaciones"><a href="index.html" >Inicio</a><a href="circle-packing.html" >Circle Packing</a><a href="gantt.html" aria-current="page">Gantt Chart</a><a href="convex-hull.html" >Convex Hull</a></nav></header>
+<section class="card"><div class="insight"><strong>Lectura:</strong> el desarrollo de frontend y backend está planificado en paralelo del 12 de febrero al 10 de marzo de 2024. El solapamiento de barras permite verlo de inmediato.</div>
+<div id="chart" role="img" aria-label="Diagrama de Gantt con diez tareas y sus fechas de inicio y final"><div class="tooltip" id="tip"></div></div><div class="legend" id="legend"></div>
+<h3>Variables y adecuación</h3><p><strong>Tarea y fase:</strong> cualitativas nominales. <strong>Inicio y fin:</strong> variables temporales. La posición horizontal representa el tiempo y la longitud de la barra representa la duración.</p>
+<h3>Limitaciones</h3><p>Este Gantt no calcula ruta crítica ni codifica dependencias formales. En proyectos muy grandes, el número de barras puede dificultar la lectura.</p>
+<p class="note"><strong>Fuente:</strong> planificación sintética elaborada para este ejercicio, no datos de una empresa real. <a href="gantt_proyecto_software.csv" download>Descargar CSV</a>.</p></section><footer>PEC 2 · Visualización de datos · Adrián Murillo · <a href="README.md">Metodología y fuentes</a></footer></div></body></html>

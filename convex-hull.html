@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="PEC 2 · Visualización de datos: Convex Hull">
+<title>Convex Hull · PEC 2</title><link rel="stylesheet" href="styles.css">
+<script defer src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script><script defer src="viz.js"></script>
+</head><body data-chart="hull"><div class="wrap"><header><div class="eyebrow">03 · Geometría y agrupación</div><h1>Convex Hull</h1><p class="lead">¿Qué región del espacio de medidas de pétalo abarca cada especie del conjunto Iris?</p><nav class="nav" aria-label="Visualizaciones"><a href="index.html" >Inicio</a><a href="circle-packing.html" >Circle Packing</a><a href="gantt.html" >Gantt Chart</a><a href="convex-hull.html" aria-current="page">Convex Hull</a></nav></header>
+<section class="card"><div class="insight"><strong>Lectura:</strong> <em>setosa</em> queda separada en longitud y anchura del pétalo, mientras que <em>versicolor</em> y <em>virginica</em> presentan solapamiento parcial de sus envolventes.</div>
+<div class="controls"><button id="toggleHull" type="button">Ocultar envolventes</button><button id="toggleVertices" type="button">Mostrar puntos extremos</button></div>
+<div id="chart" role="img" aria-label="Diagrama de dispersión de las medidas de pétalo de Iris y polígonos convexos por especie"><div class="tooltip" id="tip"></div></div><div class="legend" id="legend"></div>
+<h3>Variables y adecuación</h3><p><strong>Longitud y anchura del pétalo:</strong> cuantitativas continuas (cm). <strong>Especie:</strong> cualitativa nominal. Cada polígono es la envolvente convexa mínima de los puntos de su grupo.</p>
+<h3>Limitaciones</h3><p>La envolvente convexa no es una región de confianza ni indica densidad. Un único valor extremo puede aumentar considerablemente el polígono.</p>
+<p class="note"><strong>Fuente:</strong> dataset <a href="https://archive.ics.uci.edu/dataset/53/iris" target="_blank" rel="noopener noreferrer">Iris (UCI Machine Learning Repository)</a>, versión CSV de <a href="https://github.com/mwaskom/seaborn-data/blob/master/iris.csv" target="_blank" rel="noopener noreferrer">seaborn-data</a>. <a href="iris_convex_hull.csv" download>Descargar CSV</a>.</p></section><footer>PEC 2 · Visualización de datos · Adrián Murillo · <a href="README.md">Metodología y fuentes</a></footer></div></body></html>

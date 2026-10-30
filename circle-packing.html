@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="PEC 2 · Visualización de datos: Circle Packing">
+<title>Circle Packing · PEC 2</title><link rel="stylesheet" href="styles.css">
+<script defer src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script><script defer src="viz.js"></script>
+</head><body data-chart="circle"><div class="wrap"><header><div class="eyebrow">01 · Jerarquía y proporciones</div><h1>Circle Packing</h1><p class="lead">¿Cómo se distribuye la población entre continentes y países en el conjunto Gapminder de 2007?</p><nav class="nav" aria-label="Visualizaciones"><a href="index.html" >Inicio</a><a href="circle-packing.html" aria-current="page">Circle Packing</a><a href="gantt.html" >Gantt Chart</a><a href="convex-hull.html" >Convex Hull</a></nav></header>
+<section class="card"><div class="insight"><strong>Lectura:</strong> cada círculo exterior agrupa países de un continente; el área de los círculos interiores es proporcional a su población. El tamaño de los grupos responde a la suma de los países presentes en el dataset, no a toda la población mundial.</div>
+<div class="controls"><button id="reset" type="button">Vista general</button><span class="note">Selecciona un continente para ampliar sus países. Pasa el cursor sobre un círculo para ver su valor.</span></div>
+<div id="chart" role="img" aria-label="Diagrama Circle Packing de la población por país y continente, Gapminder 2007"><div class="tooltip" id="tip"></div></div><div class="legend" id="legend"></div>
+<h3>Variables y adecuación</h3><p><strong>Continente y país:</strong> variables categóricas nominales en una jerarquía. <strong>Población:</strong> variable cuantitativa de razón. La inclusión espacial codifica pertenencia y el área codifica magnitud.</p>
+<h3>Limitaciones</h3><p>El área es menos precisa que la longitud para comparar valores. Los países pequeños pueden quedar sin etiqueta y los espacios entre círculos no representan datos.</p>
+<p class="note"><strong>Fuente:</strong> <a href="https://github.com/plotly/datasets/blob/master/gapminderDataFiveYear.csv" target="_blank" rel="noopener noreferrer">Gapminder Data Five Year (Plotly)</a>. Año filtrado: 2007. <a href="circle_packing_gapminder_2007.csv" download>Descargar CSV</a>.</p></section><footer>PEC 2 · Visualización de datos · Adrián Murillo · <a href="README.md">Metodología y fuentes</a></footer></div></body></html>
