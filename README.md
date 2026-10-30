@@ -23,3 +23,7 @@ Se ha utilizado ChatGPT (OpenAI) para apoyar la selección y transformación de 
 ## Publicación
 
 En **Settings → Pages → Build and deployment → Source**, seleccionar **GitHub Actions**. El flujo `.github/workflows/pages.yml` publica el sitio automáticamente con cada cambio en `main`.
+
+## Verificación del despliegue
+
+Después de activar GitHub Pages con **GitHub Actions**, la acción `Publicar visualizaciones en GitHub Pages` debe terminar correctamente. Comprobar las cuatro URL en una ventana privada y verificar la carga de los gráficos y de los CSV.
