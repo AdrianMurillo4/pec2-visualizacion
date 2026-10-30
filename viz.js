@@ -41,7 +41,7 @@ async function circle(){
 async function gantt(){
  const data=await load("gantt_proyecto_software.csv"),{svg,show,hide,legend}=base();
  const colors={"Planificación":"#6b7f96","Análisis":"#367ea9","Diseño":"#886bb0","Desarrollo":"#278e7e","Pruebas":"#c28c39","Documentación":"#9b77a9","Despliegue":"#c46c5d"};
- const parse=d3.utcParse("%Y-%m-%d");data.forEach(d=>{d.start=parse(d.start);d.end=parse(d.end)});
+ const parse=d3.utcParse("%Y-%m-%d");data.forEach(d=>{d.start=d.start instanceof Date?d.start:parse(d.start);d.end=d.end instanceof Date?d.end:parse(d.end)});
  const L=240,T=90,rowH=46;
  const x=d3.scaleUtc().domain([d3.utcDay.offset(d3.min(data,d=>d.start),-4),d3.utcDay.offset(d3.max(data,d=>d.end),6)]).range([L,W-24]);
  svg.append("g").attr("class","axis").attr("transform","translate(0,"+(T-30)+")").call(d3.axisTop(x).ticks(d3.utcMonth.every(1)).tickFormat(d3.utcFormat("%b %Y")).tickSize(0)).call(g=>g.select(".domain").remove());
@@ -68,7 +68,7 @@ async function hull(){
  d3.groups(data,d=>d.species).forEach(([species,items])=>{
   const poly=d3.polygonHull(items.map(d=>[x(d.petal_length),y(d.petal_width)]));if(!poly)return;
   polygons.append("polygon").attr("points",poly.map(p=>p.join(",")).join(" ")).attr("fill",colors[species]).attr("fill-opacity",.14).attr("stroke",colors[species]).attr("stroke-width",3);
-  vertices.selectAll("circle").data(poly).enter().append("circle").attr("cx",p=>p[0]).attr("cy",p=>p[1]).attr("r",7).attr("fill","none").attr("stroke",colors[species]).attr("stroke-width",2);
+  vertices.append("g").selectAll("circle").data(poly).enter().append("circle").attr("cx",p=>p[0]).attr("cy",p=>p[1]).attr("r",7).attr("fill","none").attr("stroke",colors[species]).attr("stroke-width",2);
  });vertices.style("display","none");
  svg.append("g").selectAll("circle").data(data).join("circle").attr("cx",d=>x(d.petal_length)).attr("cy",d=>y(d.petal_width)).attr("r",4.3)
  .attr("fill",d=>colors[d.species]).attr("fill-opacity",.85).attr("stroke","#fff").attr("stroke-width",.7)
