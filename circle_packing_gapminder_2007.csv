@@ -1,0 +1,143 @@
+continent,country,population
+Africa,Nigeria,135031164
+Africa,Egypt,80264543
+Africa,Ethiopia,76511887
+Africa,"Congo, Dem. Rep.",64606759
+Africa,South Africa,43997828
+Africa,Sudan,42292929
+Africa,Tanzania,38139640
+Africa,Kenya,35610177
+Africa,Morocco,33757175
+Africa,Algeria,33333216
+Africa,Uganda,29170398
+Africa,Ghana,22873338
+Africa,Mozambique,19951656
+Africa,Madagascar,19167654
+Africa,Cote d'Ivoire,18013409
+Africa,Cameroon,17696293
+Africa,Burkina Faso,14326203
+Africa,Malawi,13327079
+Africa,Niger,12894865
+Africa,Angola,12420476
+Africa,Zimbabwe,12311143
+Africa,Senegal,12267493
+Africa,Mali,12031795
+Africa,Zambia,11746035
+Africa,Tunisia,10276158
+Africa,Chad,10238807
+Africa,Guinea,9947814
+Africa,Somalia,9118773
+Africa,Rwanda,8860588
+Africa,Burundi,8390505
+Africa,Benin,8078314
+Africa,Sierra Leone,6144562
+Africa,Libya,6036914
+Africa,Togo,5701579
+Africa,Eritrea,4906585
+Africa,Central African Republic,4369038
+Africa,"Congo, Rep.",3800610
+Africa,Mauritania,3270065
+Africa,Liberia,3193942
+Africa,Namibia,2055080
+Africa,Lesotho,2012649
+Africa,Gambia,1688359
+Africa,Botswana,1639131
+Africa,Guinea-Bissau,1472041
+Africa,Gabon,1454867
+Africa,Mauritius,1250882
+Africa,Swaziland,1133066
+Africa,Reunion,798094
+Africa,Comoros,710960
+Africa,Equatorial Guinea,551201
+Africa,Djibouti,496374
+Africa,Sao Tome and Principe,199579
+Americas,United States,301139947
+Americas,Brazil,190010647
+Americas,Mexico,108700891
+Americas,Colombia,44227550
+Americas,Argentina,40301927
+Americas,Canada,33390141
+Americas,Peru,28674757
+Americas,Venezuela,26084662
+Americas,Chile,16284741
+Americas,Ecuador,13755680
+Americas,Guatemala,12572928
+Americas,Cuba,11416987
+Americas,Dominican Republic,9319622
+Americas,Bolivia,9119152
+Americas,Haiti,8502814
+Americas,Honduras,7483763
+Americas,El Salvador,6939688
+Americas,Paraguay,6667147
+Americas,Nicaragua,5675356
+Americas,Costa Rica,4133884
+Americas,Puerto Rico,3942491
+Americas,Uruguay,3447496
+Americas,Panama,3242173
+Americas,Jamaica,2780132
+Americas,Trinidad and Tobago,1056608
+Asia,China,1318683096
+Asia,India,1110396331
+Asia,Indonesia,223547000
+Asia,Pakistan,169270617
+Asia,Bangladesh,150448339
+Asia,Japan,127467972
+Asia,Philippines,91077287
+Asia,Vietnam,85262356
+Asia,Iran,69453570
+Asia,Thailand,65068149
+Asia,"Korea, Rep.",49044790
+Asia,Myanmar,47761980
+Asia,Afghanistan,31889923
+Asia,Nepal,28901790
+Asia,Saudi Arabia,27601038
+Asia,Iraq,27499638
+Asia,Malaysia,24821286
+Asia,"Korea, Dem. Rep.",23301725
+Asia,Taiwan,23174294
+Asia,"Yemen, Rep.",22211743
+Asia,Sri Lanka,20378239
+Asia,Syria,19314747
+Asia,Cambodia,14131858
+Asia,"Hong Kong, China",6980412
+Asia,Israel,6426679
+Asia,Jordan,6053193
+Asia,Singapore,4553009
+Asia,West Bank and Gaza,4018332
+Asia,Lebanon,3921278
+Asia,Oman,3204897
+Asia,Mongolia,2874127
+Asia,Kuwait,2505559
+Asia,Bahrain,708573
+Europe,Germany,82400996
+Europe,Turkey,71158647
+Europe,France,61083916
+Europe,United Kingdom,60776238
+Europe,Italy,58147733
+Europe,Spain,40448191
+Europe,Poland,38518241
+Europe,Romania,22276056
+Europe,Netherlands,16570613
+Europe,Greece,10706290
+Europe,Portugal,10642836
+Europe,Belgium,10392226
+Europe,Czech Republic,10228744
+Europe,Serbia,10150265
+Europe,Hungary,9956108
+Europe,Sweden,9031088
+Europe,Austria,8199783
+Europe,Switzerland,7554661
+Europe,Bulgaria,7322858
+Europe,Denmark,5468120
+Europe,Slovak Republic,5447502
+Europe,Finland,5238460
+Europe,Norway,4627926
+Europe,Bosnia and Herzegovina,4552198
+Europe,Croatia,4493312
+Europe,Ireland,4109086
+Europe,Albania,3600523
+Europe,Slovenia,2009245
+Europe,Montenegro,684736
+Europe,Iceland,301931
+Oceania,Australia,20434176
+Oceania,New Zealand,4115771

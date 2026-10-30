@@ -1,0 +1,11 @@
+task,start,end,phase
+Planificación,2024-01-01,2024-01-07,Planificación
+Recogida de requisitos,2024-01-08,2024-01-21,Análisis
+Diseño del sistema,2024-01-22,2024-02-04,Diseño
+Base de datos,2024-02-05,2024-02-11,Desarrollo
+Desarrollo frontend,2024-02-12,2024-03-10,Desarrollo
+Desarrollo backend,2024-02-12,2024-03-10,Desarrollo
+Pruebas de integración,2024-03-11,2024-03-24,Pruebas
+Pruebas de usuario,2024-03-25,2024-03-31,Pruebas
+Documentación,2024-04-01,2024-04-14,Documentación
+Despliegue,2024-04-15,2024-04-21,Despliegue
